@@ -7,7 +7,7 @@ Website: http://lenguajeñ.com
 
 export default function (hljs) {
     return {
-        name: "Ñ",
+        name: "ñ",
         keywords: {
           reservadas: 'vuelve devuelve para var externo público privado si sino mientras no',
           literales: 'cierto falso nulo',
