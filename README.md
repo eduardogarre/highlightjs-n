@@ -1,64 +1,45 @@
-# robots.txt - a language grammar for highlight.js
+# Ñ - reglas de coloreado de sintaxis usando highlight.js
 
-![version](https://badgen.net/npm/v/highlightjs-robots-txt) ![license](https://badgen.net/badge/license/MIT/blue)
-![install size](https://badgen.net/packagephobia/install/highlightjs-robots-txt) ![minified size](https://badgen.net/bundlephobia/min/highlightjs-robots-txt)
+![license](https://badgen.net/badge/license/MIT/blue)
 
-## Usage
+## Uso
 
-Simply include the Highlight.js library in your webpage or Node app, then load this module.
+Sólo tienes que incluir la biblioteca `Highlight.js` en tu página o en tu programa Node, y después añádir este módulo.
 
-### Static website or simple usage
+### Para páginas estáticas o cosas sencillas
 
-Simply load the module after loading Highlight.js.  You'll use the minified version found in the `dist` directory.  This module is just a CDN build of the language, so it will register itself as the Javascript is loaded.
+Añade este módulo después de cargar `Highlight.js`. Usa la versión reducida dentro de la carpeta `dist`.
 
 ```html
-<script type="text/javascript" src="/path/to/highlight.min.js"></script>
-<script type="text/javascript" src="/path/to/robots-txt.min.js"></script>
+<script type="text/javascript" src="/carpeta/de/highlight.min.js"></script>
+<script type="text/javascript" src="/carpeta/de/ñ.min.js"></script>
 <script type="text/javascript">
   hljs.highlightAll();
 </script>
 ```
 
-### Using directly from the UNPKG CDN
+### Para programas Node o algunos sistemas de construcción
 
-```html
-<script type="text/javascript"
-  src="https://unpkg.com/highlightjs-robots-txt@0.9.1/dist/robots-txt.min.js"></script>
-```
-
-- More info: <https://unpkg.com>
-
-### With Node or another build system
-
-If you're using Node / Webpack / Rollup / Browserify, etc, simply require the language module, then register it with Highlight.js.
+Si usas `Node`, `Webpack`, `Rollup`, `Browserify`..., sólo tienes que requerir el módulo principal de `highlight.js`, después requiere el módulo del lenguaje, `highlightjs-n`, y finalmente registra el lenguaje en `Highlight.js`
 
 ```javascript
 var hljs = require('highlight.js');
-var hljsRobotsTxt = require('highlightjs-robots-txt');
+var hljsÑ = require('highlightjs-n');
 
-hljs.registerLanguage("robots-txt", hljsRobotsTxt);
+hljs.registerLanguage("ñ", hljsÑ);
 hljs.highlightAll();
 ```
 
+## Licencia
 
-## License
-
-Highlight.js is released under the MIT License. See [LICENSE][1] file
-for details.
-
-### Author
-
-Thomas LÉVEIL <thomasleveil@gmail.com>
-
-### Maintainer
-
-Josh Goebel <hello@joshgoebel.com>
+Highlightjs-Ñ se publica bajo la licencia MIT. Consulta el archivo [LICENSE][1] para obtener más detalles.
 
 
-## Links
 
-- The official site for the Highlight.js library is <https://highlightjs.org/>.
-- The Highlight.js GitHub project: <https://github.com/highlightjs/highlight.js>
-- Learn more about robots.txt: <https://support.google.com/webmasters/answer/6062608?hl=en>
+## Enlaces
 
-[1]: https://github.com/highlightjs/highlightjs-robots-txt/blob/master/LICENSE
+- La página oficial de la biblioteca Highlight.js es <https://highlightjs.org/>.
+- El proyecto Highlight.js en GitHub: <https://github.com/highlightjs/highlight.js>
+- Conoce el lenguaje Ñ: <http://lenguajeñ.com>
+
+[1]: https://github.com/eduardogarre/highlightjs-n/blob/master/LICENSE
