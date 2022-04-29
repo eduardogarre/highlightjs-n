@@ -1,33 +1,25 @@
 {
-    "name": "highlightjs-ñ",
-    "version": "0.0.1",
-    "description": "Coloreado de sintaxis del lenguaje Ñ",
-    "main": "src/ñ.js",
-    "scripts": {
-      "test": "./node_modules/.bin/mocha --reporter spec"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/eduardogarre/highlightjs-n.git"
-    },
-    "keywords": [
-      "ñ",
-      "hljs",
-      "highlightjs",
-      "highlight.js"
-    ],
-    "author": "Eduardo Garre",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/eduardogarre/highlightjs-n/issues"
-    },
-    "homepage": "https://github.com/eduardogarre/highlightjs-n",
-    "devDependencies": {
-      "highlight.js": "^10.7.2",
-      "mocha": "^5.2.0",
-      "should": "^13.2.3"
-    },
-    "dependencies": {
-      "minimist": "^1.2.5"
-    }
-  }
+  "name": "highlightjs-ñ",
+  "version": "0.9.1",
+  "description": "Coloreado de sintaxis del lenguaje de programación Ñ empleando la biblioteca Highlight.js",
+  "main": "src/ñ.js",
+  "scripts": {
+    "test": "echo \"Error: no se ha seleccionado una prueba\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eduardogarre/highlightjs-n.git"
+  },
+  "keywords": [
+    "robots.txt",
+    "highlight.js",
+    "highlightjs",
+    "syntax"
+  ],
+  "author": "Eduardo Garre <eduardo.garre@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduardogarre/highlightjs-n/issues"
+  },
+  "homepage": "https://github.com/eduardogarre/highlightjs-n"
+}
