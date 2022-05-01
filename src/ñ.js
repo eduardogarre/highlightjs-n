@@ -6,7 +6,7 @@ Description: Lenguaje de programación Ñ
 
 module.exports = function (hljs) {
   const RESERVADAS = {
-    keyword: 'vuelve|10 devuelve|10 para|10 var externo|10 público|10 privado|10 si|10 sino|10 mientras|10 no',
+    keyword: 'vuelve|10 devuelve|10 para|10 var externo|10 público|10 p&uacute;blico|10 privado|10 si|10 sino|10 mientras|10 no',
     literal: 'cierto|10 falso|10 nulo|10',
     built_in: 'bool ent ent8|10 ent16|10 ent32|10 ent64|10 nat nat8|10 nat16|10 nat32|10 nat64|10 real real16|10 real32|10 real64|10 txt'
   };
